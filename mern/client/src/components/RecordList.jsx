@@ -36,7 +36,7 @@ const Record = (props) => (
 );
 
 export default function RecordList() {
-  const [records, setRecords] = useState([]);
+  const [records, setRecords] = useState([]); //react hook
 
   // This method fetches the records from the database.
   useEffect(() => {
